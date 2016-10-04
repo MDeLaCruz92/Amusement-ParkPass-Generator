@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EF93E31DA343CD00E6A2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF93E21DA343CD00E6A2F2 /* AppDelegate.swift */; };
+		82EF93E51DA343CD00E6A2F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF93E41DA343CD00E6A2F2 /* ViewController.swift */; };
+		82EF93E81DA343CD00E6A2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EF93E61DA343CD00E6A2F2 /* Main.storyboard */; };
+		82EF93EA1DA343CD00E6A2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EF93E91DA343CD00E6A2F2 /* Assets.xcassets */; };
+		82EF93ED1DA343CD00E6A2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EF93EB1DA343CD00E6A2F2 /* LaunchScreen.storyboard */; };
+		82EF93F61DA3450F00E6A2F2 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF93F51DA3450F00E6A2F2 /* Sound.swift */; };
+		82EF93F81DA3453A00E6A2F2 /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82EF93F71DA3453A00E6A2F2 /* AccessDenied.wav */; };
+		82EF93FA1DA3454C00E6A2F2 /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82EF93F91DA3454C00E6A2F2 /* AccessGranted.wav */; };
+		82EF93FD1DA345C900E6A2F2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF93FC1DA345C900E6A2F2 /* Model.swift */; };
+		82EF93FF1DA345EA00E6A2F2 /* PassGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF93FE1DA345EA00E6A2F2 /* PassGenerator.swift */; };
+		82EF94011DA3460B00E6A2F2 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF94001DA3460B00E6A2F2 /* Manager.swift */; };
+		82EF94031DA3461F00E6A2F2 /* TypeEntrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF94021DA3461F00E6A2F2 /* TypeEntrant.swift */; };
+		82EF94051DA3463D00E6A2F2 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF94041DA3463D00E6A2F2 /* Employee.swift */; };
+		82EF94071DA3465A00E6A2F2 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF94061DA3465A00E6A2F2 /* Guest.swift */; };
+		82EF94091DA3467800E6A2F2 /* TypeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF94081DA3467800E6A2F2 /* TypeError.swift */; };
+		82EF940B1DA3469500E6A2F2 /* ForMatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF940A1DA3469500E6A2F2 /* ForMatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82EF93DF1DA343CD00E6A2F2 /* Amusement-ParkPass-Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amusement-ParkPass-Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EF93E21DA343CD00E6A2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82EF93E41DA343CD00E6A2F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82EF93E71DA343CD00E6A2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82EF93E91DA343CD00E6A2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82EF93EC1DA343CD00E6A2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82EF93EE1DA343CD00E6A2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EF93F51DA3450F00E6A2F2 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		82EF93F71DA3453A00E6A2F2 /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessDenied.wav; sourceTree = "<group>"; };
+		82EF93F91DA3454C00E6A2F2 /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessGranted.wav; sourceTree = "<group>"; };
+		82EF93FC1DA345C900E6A2F2 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		82EF93FE1DA345EA00E6A2F2 /* PassGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGenerator.swift; sourceTree = "<group>"; };
+		82EF94001DA3460B00E6A2F2 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		82EF94021DA3461F00E6A2F2 /* TypeEntrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeEntrant.swift; sourceTree = "<group>"; };
+		82EF94041DA3463D00E6A2F2 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		82EF94061DA3465A00E6A2F2 /* Guest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		82EF94081DA3467800E6A2F2 /* TypeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeError.swift; sourceTree = "<group>"; };
+		82EF940A1DA3469500E6A2F2 /* ForMatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForMatter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EF93DC1DA343CD00E6A2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EF93D61DA343CD00E6A2F2 = {
+			isa = PBXGroup;
+			children = (
+				82EF93E11DA343CD00E6A2F2 /* Amusement-ParkPass-Generator */,
+				82EF93E01DA343CD00E6A2F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EF93E01DA343CD00E6A2F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EF93DF1DA343CD00E6A2F2 /* Amusement-ParkPass-Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EF93E11DA343CD00E6A2F2 /* Amusement-ParkPass-Generator */ = {
+			isa = PBXGroup;
+			children = (
+				82EF93E41DA343CD00E6A2F2 /* ViewController.swift */,
+				82EF93FC1DA345C900E6A2F2 /* Model.swift */,
+				82EF93FE1DA345EA00E6A2F2 /* PassGenerator.swift */,
+				82EF94001DA3460B00E6A2F2 /* Manager.swift */,
+				82EF94021DA3461F00E6A2F2 /* TypeEntrant.swift */,
+				82EF94041DA3463D00E6A2F2 /* Employee.swift */,
+				82EF94061DA3465A00E6A2F2 /* Guest.swift */,
+				82EF94081DA3467800E6A2F2 /* TypeError.swift */,
+				82EF940A1DA3469500E6A2F2 /* ForMatter.swift */,
+				82EF93E61DA343CD00E6A2F2 /* Main.storyboard */,
+				82EF93FB1DA3455100E6A2F2 /* Sounds */,
+				82EF93F41DA343E200E6A2F2 /* Supporting Files */,
+			);
+			path = "Amusement-ParkPass-Generator";
+			sourceTree = "<group>";
+		};
+		82EF93F41DA343E200E6A2F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EF93E21DA343CD00E6A2F2 /* AppDelegate.swift */,
+				82EF93E91DA343CD00E6A2F2 /* Assets.xcassets */,
+				82EF93EB1DA343CD00E6A2F2 /* LaunchScreen.storyboard */,
+				82EF93EE1DA343CD00E6A2F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82EF93FB1DA3455100E6A2F2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				82EF93F51DA3450F00E6A2F2 /* Sound.swift */,
+				82EF93F91DA3454C00E6A2F2 /* AccessGranted.wav */,
+				82EF93F71DA3453A00E6A2F2 /* AccessDenied.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EF93DE1DA343CD00E6A2F2 /* Amusement-ParkPass-Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EF93F11DA343CD00E6A2F2 /* Build configuration list for PBXNativeTarget "Amusement-ParkPass-Generator" */;
+			buildPhases = (
+				82EF93DB1DA343CD00E6A2F2 /* Sources */,
+				82EF93DC1DA343CD00E6A2F2 /* Frameworks */,
+				82EF93DD1DA343CD00E6A2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amusement-ParkPass-Generator";
+			productName = "Amusement-ParkPass-Generator";
+			productReference = 82EF93DF1DA343CD00E6A2F2 /* Amusement-ParkPass-Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EF93D71DA343CD00E6A2F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Michael De La Cruz";
+				TargetAttributes = {
+					82EF93DE1DA343CD00E6A2F2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YS2U4TE98P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 82EF93DA1DA343CD00E6A2F2 /* Build configuration list for PBXProject "Amusement-ParkPass-Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EF93D61DA343CD00E6A2F2;
+			productRefGroup = 82EF93E01DA343CD00E6A2F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EF93DE1DA343CD00E6A2F2 /* Amusement-ParkPass-Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EF93DD1DA343CD00E6A2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EF93ED1DA343CD00E6A2F2 /* LaunchScreen.storyboard in Resources */,
+				82EF93FA1DA3454C00E6A2F2 /* AccessGranted.wav in Resources */,
+				82EF93EA1DA343CD00E6A2F2 /* Assets.xcassets in Resources */,
+				82EF93E81DA343CD00E6A2F2 /* Main.storyboard in Resources */,
+				82EF93F81DA3453A00E6A2F2 /* AccessDenied.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EF93DB1DA343CD00E6A2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EF940B1DA3469500E6A2F2 /* ForMatter.swift in Sources */,
+				82EF94031DA3461F00E6A2F2 /* TypeEntrant.swift in Sources */,
+				82EF94051DA3463D00E6A2F2 /* Employee.swift in Sources */,
+				82EF94071DA3465A00E6A2F2 /* Guest.swift in Sources */,
+				82EF93E51DA343CD00E6A2F2 /* ViewController.swift in Sources */,
+				82EF94011DA3460B00E6A2F2 /* Manager.swift in Sources */,
+				82EF93F61DA3450F00E6A2F2 /* Sound.swift in Sources */,
+				82EF94091DA3467800E6A2F2 /* TypeError.swift in Sources */,
+				82EF93E31DA343CD00E6A2F2 /* AppDelegate.swift in Sources */,
+				82EF93FD1DA345C900E6A2F2 /* Model.swift in Sources */,
+				82EF93FF1DA345EA00E6A2F2 /* PassGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82EF93E61DA343CD00E6A2F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EF93E71DA343CD00E6A2F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82EF93EB1DA343CD00E6A2F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EF93EC1DA343CD00E6A2F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82EF93EF1DA343CD00E6A2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82EF93F01DA343CD00E6A2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EF93F21DA343CD00E6A2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YS2U4TE98P;
+				INFOPLIST_FILE = "Amusement-ParkPass-Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MichaelD.Amusement-ParkPass-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		82EF93F31DA343CD00E6A2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YS2U4TE98P;
+				INFOPLIST_FILE = "Amusement-ParkPass-Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MichaelD.Amusement-ParkPass-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EF93DA1DA343CD00E6A2F2 /* Build configuration list for PBXProject "Amusement-ParkPass-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EF93EF1DA343CD00E6A2F2 /* Debug */,
+				82EF93F01DA343CD00E6A2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EF93F11DA343CD00E6A2F2 /* Build configuration list for PBXNativeTarget "Amusement-ParkPass-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EF93F21DA343CD00E6A2F2 /* Debug */,
+				82EF93F31DA343CD00E6A2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EF93D71DA343CD00E6A2F2 /* Project object */;
+}
